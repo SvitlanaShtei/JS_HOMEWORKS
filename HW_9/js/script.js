@@ -7,9 +7,9 @@ if (!isNaN(temperature)) {
     let result = null;
 
     if (unit.toUpperCase() === 'C') {
-        result = `${temperature} градусів Цельсія = ${(temperature * 9 / 5) + 32} градусам Фаренгейта`;
+        result = temperature + ' градусів Цельсія = ' + ((temperature * 9 / 5) + 32) + ' градусам Фаренгейта';
     } else if (unit.toUpperCase() === 'F') {
-        result = `${temperature} градусів Фаренгейта = ${(temperature - 32) * 5 / 9} градусам Цельсія`;
+        result = temperature + ' градусів Фаренгейта = ' + ((temperature - 32) * 5 / 9) + ' градусам Цельсія';
     }
     alert(result);
 } else {
