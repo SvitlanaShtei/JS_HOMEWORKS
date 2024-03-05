@@ -7,7 +7,7 @@
 // Змініть значення властивості name на Pete.
 // Видаліть властивість name з об'єкта.
 
-let user = {
+const user = {
     name: 'John',
     surname: 'Smith',
 };
