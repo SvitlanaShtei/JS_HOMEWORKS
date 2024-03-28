@@ -15,6 +15,6 @@ const padString = function (str, length, symbol, right = true) {
     return right ? str + repeatedElements : repeatedElements + str;
 }
 
-console.log(padString('hello', 8, '&'));
-console.log(padString('hello', 8, '*', false));
-console.log(padString('hello', 3, '*', false));
+console.log(padString('hello', 8, '*'));
+console.log(padString('hello', 6, '*', false));
+console.log(padString('hello', 2, '*', false));
