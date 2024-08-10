@@ -1,0 +1,5 @@
+/node_modules/
+.idea
+.vs_code
+.DStore
+.idea/workspace.xml
