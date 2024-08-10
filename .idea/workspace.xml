@@ -5,11 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="caebc51c-ba53-4570-bef7-fd9bf4bf109f" name="Changes" comment="init">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DZ_33" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DZ_33/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/DZ_33/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW_52/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW_52/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eslint.config.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DZ_33" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW_1/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW_1/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW_1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/HW_52/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW_1/js/script.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,10 +36,10 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="HW_33" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/DZ_33" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -39,14 +48,12 @@
     &quot;assignee&quot;: &quot;SvitlanaShtei&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">
-    <option name="selectedUrlAndAccountId">
-      <UrlAndAccount>
-        <option name="accountId" value="164e8759-06bb-49f1-a650-4dbb32a95b47" />
-        <option name="url" value="https://github.com/SvitlanaShtei/JS_HOMEWORKS.git" />
-      </UrlAndAccount>
-    </option>
-  </component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/SvitlanaShtei/JS_HOMEWORKS.git&quot;,
+    &quot;accountId&quot;: &quot;164e8759-06bb-49f1-a650-4dbb32a95b47&quot;
+  }
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/package.json" root0="SKIP_INSPECTION" />
     <setting file="file://$USER_HOME$/OneDrive/Рабочий стол/Нова папка (2)/HW_25/js/script.js" root0="SKIP_INSPECTION" />
@@ -61,7 +68,7 @@
   &quot;associatedIndex&quot;: 5
 }</component>
   <component name="ProjectId" id="2ciS9iEpRzwyiuaH71grEFkTs1Z" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -72,10 +79,15 @@
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "DefaultHtmlFileTemplate": "HTML File",
+    "Node.js.Unnamed.executor": "Run",
+    "Node.js.index.js.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "HW__52",
+    "javascript.nodejs.core.library.configured.version": "20.11.0",
+    "javascript.nodejs.core.library.typings.version": "20.11.30",
+    "last_opened_file_path": "C:/Users/JS_HOMEWORKS_/node_modules",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.standard": "true",
     "node.js.detected.package.tslint": "true",
@@ -83,11 +95,40 @@
     "node.js.selected.package.standard": "",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "settings.javascript.linters.eslint",
+    "prettierjs.PrettierConfiguration.Package": "C:\\Users\\JS_HOMEWORKS_\\node_modules\\prettier",
+    "settings.editor.selected.configurable": "settings.javascript.prettier",
     "ts.external.directory.path": "C:\\Users\\ivank\\AppData\\Local\\JetBrains\\WebStorm 2023.3.4\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\JS_HOMEWORKS_\HW_52" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Node.js.index.js">
+    <configuration type="NodeJSConfigurationType" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="index.js" working-dir="$PROJECT_DIR$/HW_52">
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Node.js.index.js" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.index.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-WS-241.18034.50" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -107,6 +148,11 @@
       <workItem from="1720059243653" duration="44972000" />
       <workItem from="1722290384866" duration="14504000" />
       <workItem from="1722323639691" duration="317000" />
+      <workItem from="1723255569139" duration="1069000" />
+      <workItem from="1723256656872" duration="406000" />
+      <workItem from="1723257075430" duration="31000" />
+      <workItem from="1723257114407" duration="967000" />
+      <workItem from="1723258098668" duration="5904000" />
     </task>
     <task id="LOCAL-00002" summary="init">
       <option name="closed" value="true" />
@@ -517,7 +563,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/HW_12" />
+                        <option value="HW_52" />
                       </list>
                     </value>
                   </entry>
