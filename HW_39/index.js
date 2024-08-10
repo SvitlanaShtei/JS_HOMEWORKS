@@ -42,6 +42,7 @@ function find(array, callback) {
     return undefined;
 }
 
+
 const result = find(arr, (element) => element > 1);
 console.log(result);
 
